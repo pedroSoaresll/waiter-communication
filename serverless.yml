@@ -47,6 +47,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs10.x
+  environment: ${file(./environment.yml)}
 
 # you can overwrite defaults here
 #  stage: dev

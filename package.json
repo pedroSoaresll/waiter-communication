@@ -13,6 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@types/node": "^12.7.4",
+    "@types/nunjucks": "^3.1.2",
     "babel-loader": "^8.0.6",
     "cache-loader": "^4.1.0",
     "fork-ts-checker-webpack-plugin": "^1.5.0",
@@ -20,8 +21,13 @@
     "serverless-offline": "^5.10.1",
     "serverless-offline-sqs": "^2.0.3",
     "serverless-webpack": "^5.3.1",
+    "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",
     "webpack": "^4.39.3",
     "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "mailgun-js": "^0.22.0",
+    "nunjucks": "^3.2.0"
   }
 }
